@@ -20,7 +20,7 @@ pip install pwntools
 ### 一、仅监听反弹 Shell（不上传文件）
 
 ```
-python shell.py -p 1234
+python pwntools-shell-uploader.py -p 1234
 ```
 
 - 监听 `1234` 端口
@@ -32,7 +32,7 @@ python shell.py -p 1234
 ### 二、监听并上传文件
 
 ```
-python shell.py -p 1234 -f ./tool -r /tmp/tools/tool
+python pwntools-shell-uploader.py -p 1234 -f ./tool -r /tmp/tools/tool
 ```
 
 参数说明：
