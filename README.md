@@ -32,7 +32,7 @@ python shell.py -p 1234
 ### 二、监听并上传文件
 
 ```
-python shell.py -p 1234 -f ./fscan -r /tmp/tools/fscan
+python shell.py -p 1234 -f ./tool -r /tmp/tools/tool
 ```
 
 参数说明：
