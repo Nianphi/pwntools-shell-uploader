@@ -1,0 +1,3 @@
+PART_SIZE = 20 * 1024   # Base64 chunk size
+SUB_SIZE  = 2048        # Per printf write
+TIMEOUT   = 5           # ACK timeout
